@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
-        'name' => 'getkirby/plainkit',
+        'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'fc3e483081cefc92b1527753dd1d07a752ffb9c4',
-        'type' => 'project',
+        'reference' => '364140f1f9d4cc2d6be21654714bce3075dca4b8',
+        'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '364140f1f9d4cc2d6be21654714bce3075dca4b8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'christian-riesen/base32' => array(
             'pretty_version' => '1.6.0',
             'version' => '1.6.0.0',
@@ -61,15 +70,6 @@
             'reference' => 'c98ece30bfba45be7ce457e1102d1b169d922f3d',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../getkirby/composer-installer',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'getkirby/plainkit' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'fc3e483081cefc92b1527753dd1d07a752ffb9c4',
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
