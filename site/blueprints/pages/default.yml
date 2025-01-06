@@ -11,12 +11,8 @@ columns:
   sidebar:
     width: 1/3
     fields:
-      pages:
-        type: pages
-        template: default
       files:
         label: Featured Image
         type: files
         multiple: false
-        template: default
         uploads: image
