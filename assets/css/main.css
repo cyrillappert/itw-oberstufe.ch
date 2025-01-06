@@ -607,3 +607,7 @@ video {
 .underline {
   text-decoration-line: underline;
 }
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
