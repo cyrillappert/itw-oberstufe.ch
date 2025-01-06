@@ -1,0 +1,35 @@
+services:
+  kirby:
+    container_name: itw-kirby
+    build:
+      context: .
+      dockerfile: Dockerfile.kirby
+    image: itw-kirby
+    volumes:
+      - ./assets:/var/www/html/assets
+      - ./content:/var/www/html/content
+      - ./kirby:/var/www/html/kirby
+      - ./site:/var/www/html/site
+      - ./vendor:/var/www/html/vendor
+      - ./composer.json:/var/www/html/composer.json
+      - ./composer.lock:/var/www/html/composer.lock
+      - ./favicon.ico:/var/www/html/favicon.ico
+      - ./index.php:/var/www/html/index.php
+      - ./.htaccess:/var/www/html/.htaccess
+
+    ports:
+      - "8400:80"
+  tailwind:
+    container_name: itw-tailwind
+    build:
+      context: .
+      dockerfile: Dockerfile.tailwind
+    image: itw-tailwind
+    volumes:
+      - ./assets:/app/assets
+      - ./site:/app/site
+      - ./tailwind.config.js:/app/tailwind.config.js
+      - node_modules:/app/node_modules
+    command: [ "npx", "tailwindcss", "-i", "./assets/css/index.css", "-o", "./assets/css/main.css", "--watch=always" ]
+volumes:
+  node_modules:
