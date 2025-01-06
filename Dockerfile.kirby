@@ -1,4 +1,16 @@
 FROM php:8.3-apache
 WORKDIR /var/www/html
 
+
+RUN apt-get update && apt-get install -y \
+    libfreetype-dev \
+    libjpeg62-turbo-dev \
+    libpng-dev \
+    libicu-dev \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install -j$(nproc) gd intl exif \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+
 RUN a2enmod headers rewrite

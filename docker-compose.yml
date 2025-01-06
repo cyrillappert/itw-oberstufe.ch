@@ -18,6 +18,9 @@ services:
       - ./.htaccess:/var/www/html/.htaccess
     ports:
       - "8400:80"
+    networks:
+      - itw-network
+
   tailwind:
     container_name: itw-tailwind
     build:
@@ -30,5 +33,13 @@ services:
       - ./tailwind.config.js:/app/tailwind.config.js
       - node_modules:/app/node_modules
     command: [ "npx", "tailwindcss", "-i", "./assets/css/index.css", "-o", "./assets/css/main.css", "--watch=always" ]
+    networks:
+      - itw-network
+
 volumes:
   node_modules:
+
+
+networks:
+  itw-network:
+    name: itw-default
