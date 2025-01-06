@@ -1,5 +1,10 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+columns:
+  left:
+    width: 1/2
+    sections:
+      pages:
+        type: pages
+        width: 1/2
+        layout: cards

@@ -1,1 +1,62 @@
 Title: Integrale Tagesschule Winterthur
+
+----
+
+Pages:
+
+- 
+  id: home
+  image:
+    back: pattern
+    color: gray-500
+    cover: false
+    icon: page
+    url: >
+      http://localhost:8400/media/pages/home/ab2fe31cae-1736197987/dsf7149.jpg
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://localhost:8400/media/pages/home/ab2fe31cae-1736197987/dsf7149-352x.jpg
+      352w,
+      http://localhost:8400/media/pages/home/ab2fe31cae-1736197987/dsf7149-864x.jpg
+      864w,
+      http://localhost:8400/media/pages/home/ab2fe31cae-1736197987/dsf7149-1408x.jpg
+      1408w
+  info: ""
+  link: /pages/home
+  sortable: true
+  text: Home
+  uuid: page://a0nBgIboCX70lBvg
+  dragText: '(link: page://a0nBgIboCX70lBvg text: Home)'
+  hasChildren: false
+  url: http://localhost:8400
+- 
+  id: about
+  image:
+    back: pattern
+    color: gray-500
+    cover: false
+    icon: page
+  info: ""
+  link: /pages/about
+  sortable: true
+  text: About
+  uuid: page://MbVYWBTY2aFtwz3r
+  dragText: '(link: page://MbVYWBTY2aFtwz3r text: About)'
+  hasChildren: false
+  url: http://localhost:8400/about
+- 
+  id: error
+  image:
+    back: pattern
+    color: gray-500
+    cover: false
+    icon: page
+  info: ""
+  link: /pages/error
+  sortable: true
+  text: Error
+  uuid: page://rIWHtJIHzahLNYiI
+  dragText: '(link: page://rIWHtJIHzahLNYiI text: Error)'
+  hasChildren: false
+  url: http://localhost:8400/error

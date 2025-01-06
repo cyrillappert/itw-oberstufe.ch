@@ -1,0 +1,12 @@
+Title: Image File
+extends: files/default
+accept: image/jpeg, image/png
+
+sections:
+  image:
+    type: fields
+    fields:
+      alt:
+        label: Bildbeschreibung für Screenreader
+        type: text
+        width: 1/2
