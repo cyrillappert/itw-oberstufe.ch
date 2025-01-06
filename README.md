@@ -2,9 +2,9 @@
 
 ## To start development...
 
-Make sure that Docker is installed on your system
+Make sure that Docker is installed on your system.
 
-### Run the containers:
+### Build and run the containers in detached mode:
 
 ```
 docker compose up -d --build
@@ -12,7 +12,7 @@ docker compose up -d --build
 
 The project is now running on http://localhost:8400
 
-### Remove the containers:
+### Remove containers and all volumes:
 
 ```
 docker compose down

@@ -31,14 +31,14 @@ services:
       - ./assets:/app/assets
       - ./site:/app/site
       - ./tailwind.config.js:/app/tailwind.config.js
-      - node_modules:/app/node_modules
+      - itw-tailwind:/app/node_modules
     command: [ "npx", "tailwindcss", "-i", "./assets/css/index.css", "-o", "./assets/css/main.css", "--watch=always" ]
     networks:
       - itw-network
 
 volumes:
-  node_modules:
-
+  itw-tailwind:
+    name: itw-tailwind
 
 networks:
   itw-network:
