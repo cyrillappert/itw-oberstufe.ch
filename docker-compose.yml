@@ -16,7 +16,6 @@ services:
       - ./favicon.ico:/var/www/html/favicon.ico
       - ./index.php:/var/www/html/index.php
       - ./.htaccess:/var/www/html/.htaccess
-
     ports:
       - "8400:80"
   tailwind:
