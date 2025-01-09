@@ -16,7 +16,7 @@ endsnippet()
         <?php e($page_title = $slots->page_title(), $page_title) ?>
     </header>
 
-    <?= snippet('partials/nav') ?>
+    <?php snippet('partials/nav') ?>
 
     <?php e($main = $slots->main(), $main); ?>
 

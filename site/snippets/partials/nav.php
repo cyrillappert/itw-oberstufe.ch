@@ -2,7 +2,7 @@
     <ul>
         <?php foreach ($site->menu()->toPages() as $p): ?>
             <li>
-                <?= snippet('components/nav_link', ['p' => $p]) ?>
+                <?php snippet('components/nav_link', ['p' => $p]) ?>
             </li>
         <?php endforeach ?>
     </ul>
