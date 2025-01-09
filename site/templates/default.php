@@ -9,8 +9,12 @@
 <?php slot('main') ?>
 
 <main class="self-end bg-yellow" id="main" hx-swap-oob="true">
-    <h2><?= $page->text()->md()  ?></h2>
+    <?= $page->text()->md() ?>
 </main>
+
+<div class="self-end justify-self-end w-80">
+    <?php snippet('components/image', ['f' => $page->featured_image()->toFile()->crop(640)]) ?>
+</div>
 
 <?php endslot() ?>
 

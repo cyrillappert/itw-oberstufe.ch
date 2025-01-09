@@ -11,7 +11,7 @@ columns:
   sidebar:
     width: 1/3
     fields:
-      files:
+      featured_image:
         label: Featured Image
         type: files
         multiple: false

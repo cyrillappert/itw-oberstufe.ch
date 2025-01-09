@@ -1,17 +1,13 @@
-Author: 
+Author: Cyrill Appert
 
 ----
 
-Alt: 
+Alt: Cyrill Appert sitting on the floor of an empty pool.
 
 ----
 
-Uuid: QP4YsRQinn9KClsX
+Uuid: HQVdpnElGueuBl6y
 
 ----
 
 Template: image
-
-----
-
-Focus: 65.5% 31.1%

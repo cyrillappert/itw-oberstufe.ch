@@ -18,4 +18,4 @@ if (isset($_SERVER['HTTP_HX_REQUEST']) && $_SERVER['HTTP_HX_REQUEST'] == 'true')
     <?= css('assets/css/main.css') ?>
 </head>
 
-<body>
+<body class="bg-green-500 text-white">

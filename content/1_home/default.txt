@@ -7,11 +7,11 @@ Text:
 # Hello, World!
 I <3 you.
 
-## Playground of ITW
+Playground of ITW
 
 ----
 
-Files: - file://QP4YsRQinn9KClsX
+Featured-image: - file://HQVdpnElGueuBl6y
 
 ----
 

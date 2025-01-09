@@ -9,7 +9,7 @@ endsnippet()
 
 ?>
 
-<div class="p-3 grid grid-rows-2 grid-cols-2 w-screen h-screen text-white bg-blue-500">
+<div class="p-3 grid grid-rows-2 grid-cols-2 w-screen h-screen">
 
     <header>
         <?= $site->title() ?>
