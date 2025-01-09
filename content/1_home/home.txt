@@ -2,11 +2,7 @@ Title: Home
 
 ----
 
-Headline:
-
-## Eine Schule fürs Leben
-Wir wind eine Sekundarschule auf der Grundlage der gegliederten Oberstufe. Wir unterrichten nach dem Lehrplan des Kantons Zürich. Unsere Schülerinnen
-und Schüler erhalten den Abschluss der Sekundarschule A oder B.
+Headline: <h2>Eine Schule fürs Leben</h2><p>Wir wind eine Sekundarschule auf der Grundlage der gegliederten Oberstufe. Wir unterrichten nach dem Lehrplan des Kantons Zürich. Unsere Schülerinnen und Schüler erhalten den Abschluss der Sekundarschule A oder B.</p>
 
 ----
 
