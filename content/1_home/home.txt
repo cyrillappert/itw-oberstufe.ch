@@ -2,15 +2,23 @@ Title: Home
 
 ----
 
-Headline: Eine Schule fürs Leben
+Headline:
+
+## Eine Schule fürs Leben
+Wir wind eine Sekundarschule auf der Grundlage der gegliederten Oberstufe. Wir unterrichten nach dem Lehrplan des Kantons Zürich. Unsere Schülerinnen
+und Schüler erhalten den Abschluss der Sekundarschule A oder B.
 
 ----
 
-Blurp: So great!
+Text: <h3>Suchen Sie eine schulische alternative für ihr Kind?</h3><p>An der itw finden wir für jede Schülerin, jeden Schüler passende Lernwege, auf welchen bedeutsame Entwicklungsschritte gelingen. Wir freuen uns darauf, Sie kennen zu lernen.</p>
 
 ----
 
 Featured-image: - file://eYXLMDAOHhIb3ez0
+
+----
+
+Blurp: So great!
 
 ----
 

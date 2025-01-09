@@ -6,9 +6,6 @@ columns:
     fields:
       headline:
         label: Headline
-        type: text
-      blurp:
-        label: Kurzbeschreibung
         type: textarea
   sidebar:
     width: 1/3
