@@ -12,8 +12,10 @@
     <?= $page->text()->md() ?>
 </main>
 
-<div class="self-end justify-self-end w-80">
-    <?php snippet('components/image', ['f' => $page->featured_image()->toFile()->crop(640)]) ?>
+<div class="self-end justify-self-end w-80" id="featured-image" hx-swap-oob="true">
+    <?php if ($image = $page->featured_image()->toFile()): ?>
+        <?php snippet('components/image', ['f' => $image->crop(640)]) ?>
+    <?php endif ?>
 </div>
 
 <?php endslot() ?>
