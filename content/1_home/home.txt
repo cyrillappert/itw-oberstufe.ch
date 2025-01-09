@@ -1,0 +1,21 @@
+Title: Home
+
+----
+
+Headline: Eine Schule fürs Leben
+
+----
+
+Blurp: So great!
+
+----
+
+Featured-image: - file://eYXLMDAOHhIb3ez0
+
+----
+
+Test: 
+
+----
+
+Uuid: fGP4lx7uOZusA0QK

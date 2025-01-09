@@ -1,0 +1,17 @@
+Title: About
+
+----
+
+Headline: Über unsere Schule
+
+----
+
+Blurp: Ladida
+
+----
+
+Featured-image: 
+
+----
+
+Uuid: MbVYWBTY2aFtwz3r
