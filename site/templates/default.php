@@ -13,9 +13,15 @@
 </main>
 
 <div class="self-end justify-self-end w-80" id="featured-image" hx-swap-oob="true">
-    <?php if ($image = $page->featured_image()->toFile()): ?>
+    <?php if ($image = $page->hero_image()->toFile()): ?>
         <?php snippet('components/image', ['f' => $image->crop(640)]) ?>
     <?php endif ?>
+    <h2>
+        <?= $page->hero_headline() ?>
+    </h2>
+    <div>
+        <?= $page->hero_text() ?>
+    </div>
 </div>
 
 <?php endslot() ?>

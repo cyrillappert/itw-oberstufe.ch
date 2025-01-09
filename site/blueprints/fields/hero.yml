@@ -1,0 +1,15 @@
+label: Featured Image
+type: group
+fields:
+  hero_headline:
+    label: Hero Überschrift
+    type: text
+  hero_text:
+    label: Hero Text
+    type: textarea
+  hero_image:
+    label: Hero Bild
+    type: files
+    multiple: false
+    uploads: image
+  

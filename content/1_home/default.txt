@@ -7,16 +7,6 @@ Text:
 # Hello, World!
 I <3 you.
 
-Playground of ITW
-
 ----
 
-Featured-image: - file://HQVdpnElGueuBl6y
-
-----
-
-Pages: 
-
-----
-
-Uuid: a0nBgIboCX70lBvg
+Uuid: gQ364VBrOw0yWu7M
