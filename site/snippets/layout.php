@@ -2,7 +2,6 @@
 
 snippet('partials/head', slots: true);
 
-e($page_title = $slots->page_title(), $page_title);
 e($main = $slots->main(), $main);
 
 endsnippet()
@@ -11,9 +10,8 @@ endsnippet()
 
 <div class="p-3 grid grid-rows-2 grid-cols-2 w-screen h-screen">
 
-    <header>
+    <header class="text-4xl">
         <?= $site->title() ?>
-        <?php e($page_title = $slots->page_title(), $page_title) ?>
     </header>
 
     <?php snippet('partials/nav') ?>
