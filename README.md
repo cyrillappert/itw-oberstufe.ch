@@ -15,7 +15,7 @@ The project is now running on http://localhost:8400
 ### Remove containers and all volumes:
 
 ```
-docker compose down
+docker compose down -v
 ```
 
 ## To update Kirby...
