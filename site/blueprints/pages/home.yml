@@ -4,13 +4,31 @@ extends: pages/default
 
 columns:
   main:
-    fields:
-      text:
-        label: Text
-        type: writer
-        nodes:
-          - heading
-          - paragraph
-        headings:
-          - 3
-        marks: false
+    sections:
+      call_to_action: 
+        type: fields
+        fields:
+          interested:
+            label: Interessiert?
+            type: writer
+            nodes:
+              - heading
+              - paragraph
+            headings:
+              - 3
+            marks: false
+          school_places:
+            type: text
+            label: Freie Schulplätze
+          link_text:
+            width: 1/2
+            type: text
+            label: Text Link Angebot
+          link_url:
+            width: 1/2
+            type: link
+            options:
+              - page
+            label: Link Angebot
+      # news:
+      #   type: pages
