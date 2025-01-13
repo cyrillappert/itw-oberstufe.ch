@@ -8,3 +8,9 @@ columns:
       text:
         label: Text
         type: writer
+        nodes:
+          - heading
+          - paragraph
+        headings:
+          - 3
+        marks: false

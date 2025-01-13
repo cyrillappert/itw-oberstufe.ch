@@ -7,6 +7,12 @@ columns:
       headline:
         label: Headline
         type: writer
+        nodes:
+          - heading
+          - paragraph
+        headings:
+          - 2
+        marks: false
   sidebar:
     width: 1/3
     fields:
