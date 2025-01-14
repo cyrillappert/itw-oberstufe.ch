@@ -4,7 +4,7 @@
 <main class="self-end " id="main" hx-swap-oob="true">
 
     <div class="bg-red-500">
-        <?php if ($image = $page->featured_image()->toFile()): ?>
+        <?php if ($image = $page->hero_image()->toFile()): ?>
             <div class="self-end justify-self-end w-80" id="featured-image" hx-swap-oob="true">
                 <?php snippet('components/image', ['f' => $image->crop(640)]) ?>
             </div>
@@ -13,7 +13,12 @@
     </div>
 
     <div class="bg-orange-500">
-        <?php snippet('components/text', ['t' => $page->text()]) ?>
+        <?php snippet('components/text', ['t' => $page->interested()]) ?>
+    </div>
+
+    <div class="bg-yellow-500">
+        <?= $page->school_places() ?>
+        <a class="hover:underline" href="<?= $page->link_url() ?>"><?= $page->link_text() ?></a>
     </div>
 
 </main>
