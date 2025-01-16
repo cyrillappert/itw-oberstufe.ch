@@ -1,0 +1,21 @@
+Title: Aktuelles
+
+----
+
+Headline: <h2>Aktuelles an der ITW.</h2><p>Bla, bli, blup. Best school ever. Here are the newest news!</p>
+
+----
+
+News-title: News & Projekte
+
+----
+
+Hero-image: - file://pGxHK6UGWrg5PFOW
+
+----
+
+Featured-image: 
+
+----
+
+Uuid: odH4kiakVVM19NvB

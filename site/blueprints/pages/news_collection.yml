@@ -1,0 +1,17 @@
+title: News Collection
+
+extends: pages/default
+
+columns:
+  main:
+    sections:
+      news_settings:
+        type: fields
+        fields:
+          news_title:
+            type: text
+            label: Subtitle
+      news_pages:
+        label: News Pages
+        type: pages
+        template: news_item

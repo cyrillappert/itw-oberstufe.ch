@@ -1,9 +1,0 @@
-title: News Page
-
-extends: pages/default
-
-columns:
-  main:
-    sections:
-      label: Text
-      type: pages
